@@ -1,0 +1,44 @@
+.feature {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.feature-li {
+    width: 270px;
+}
+
+
+
+
+
+.details {
+    display: flex;
+    background-color: rgba(245, 244, 250, 1);
+
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.feature-ul {
+    display: flex;
+    gap: 30px;
+}
+
+.feature-h {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+}
+
+.feature-description {
+    display: flex;
+    color: var(--color-text-secondary);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
