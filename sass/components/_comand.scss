@@ -28,6 +28,10 @@
 
 .icon-comand {
     fill: currentColor;
+
+    &:hover {
+            fill: currentColor;
+        }
 }
 .about-us-poto {
     display: flex;
@@ -94,13 +98,13 @@
 
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
+    &:hover {
+            background-color: var(--color-web-blue);
+            color: #ffffff;
+        }
 }
 
-.social-link-comand:hover {
-    background-color: var(--color-web-blue);
-    color: #ffffff;
-}
 
-.icon-comand:hover {
-    fill: currentColor;
-}
+

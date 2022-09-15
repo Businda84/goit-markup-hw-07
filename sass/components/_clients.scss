@@ -14,17 +14,8 @@
     gap: 30px;
 }
 
-.icon-client:hover,
-.icon-client:focus {
-    fill: #2196f3;
-}
 
-.icon-client-list:hover,
-.icon-client-list:focus {
-    color: var(--color-web-blue);
 
-    border-color: var(--color-web-blue);
-}
 
 .icon-client-list {
     color: #afb1b8;
@@ -39,10 +30,21 @@
     transition-property: color, border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+            color: var(--color-web-blue);
+            border-color: var(--color-web-blue);
+        }
 }
 
 .icon-client {
     fill: currentColor;
     width: 106px;
     height: 60px;
+
+        &:hover,
+        &:focus {
+            fill: #2196f3;
+        }
 }

@@ -7,6 +7,12 @@
     color: rgba(255, 255, 255, 0.6);
 }
 
+.link-maps:hover,
+.link:hover,
+.link:focus,
+.contact-link-footer:hover,
+.contact-link-footer:focus{
+color: var(--color-web-blue);}
 
 .icon-footer {
     fill: #ffffff;
@@ -172,10 +178,12 @@
 
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+            background-color: var(--color-web-blue);
+        }
 }
-.social-link-footer:hover {
-    background-color: var(--color-web-blue);
-}
+
 .social-link {
     width: 44px;
     height: 44px;

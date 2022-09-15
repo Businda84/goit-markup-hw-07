@@ -9,14 +9,17 @@
 
     transition: opacity var(--transition-timing-cub),
         visibility var(--transition-timing-cub);
+
+    &.is-hidden {
+        visibility: hidden;
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    &.is-hidden.modal {
+        transform: translate(-50%, -50%) scale(0);
+    }
+
+
 }
 
-.backdrop.is-hidden {
-    visibility: hidden;
-    opacity: 0;
-    pointer-events: none;
-}
-
-.backdrop.is-hidden.modal {
-    transform: translate(-50%, -50%) scale(0);
-}

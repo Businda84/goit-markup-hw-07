@@ -24,11 +24,13 @@
     right: 8px;
     border: rgba(0, 0, 0, 0.1);
     transition: fill 250ms var(--transition-timing-cub);
+
+    &:hover {
+            fill: var(--color-web-blue);
+        }
 }
 
-.close-btn:hover {
-    fill: var(--color-web-blue);
-}
+
 
 .contact-form {
     display: flex;
@@ -59,6 +61,11 @@ textarea {
     width: 448px;
 
     border-radius: 4px;
+
+  
+    resize: none;
+    cursor: pointer;
+        
 }
 
 .label-modal {
@@ -74,11 +81,6 @@ textarea {
 
 
 
-}
-
-textarea {
-    resize: none;
-    cursor: pointer;
 }
 
 .icone-close {
