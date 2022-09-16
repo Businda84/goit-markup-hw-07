@@ -3,11 +3,18 @@
     height: 92px;
 }
 
-.clients {
+.regular-customers__title {
     padding-bottom: 50px;
     text-align: center;
+   
+            padding-bottom: 0px;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 1.17;
+            text-align: center;
+            letter-spacing: .03em;
+            margin-bottom: 50px;
 }
-
 .client-list {
     box-sizing: border-box;
     display: flex;
@@ -17,7 +24,7 @@
 
 
 
-.icon-client-list {
+.client__list {
     color: #afb1b8;
     display: flex;
     justify-content: center;
@@ -38,7 +45,7 @@
         }
 }
 
-.icon-client {
+.client__icon {
     fill: currentColor;
     width: 106px;
     height: 60px;

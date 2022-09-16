@@ -1,9 +1,9 @@
-.feature {
+.our-features {
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
-.feature-li {
+.our-features__item {
     width: 270px;
 }
 
@@ -11,7 +11,7 @@
 
 
 
-.details {
+.our-features__img {
     display: flex;
     background-color: rgba(245, 244, 250, 1);
 
@@ -21,12 +21,12 @@
     margin-bottom: 30px;
 }
 
-.feature-ul {
+.our-features__list {
     display: flex;
     gap: 30px;
 }
 
-.feature-h {
+.our-features__subject {
     margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
@@ -34,7 +34,7 @@
     letter-spacing: 0.03em;
 }
 
-.feature-description {
+.our-features__text {
     display: flex;
     color: var(--color-text-secondary);
     font-weight: 400;

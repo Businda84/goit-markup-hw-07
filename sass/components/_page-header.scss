@@ -17,11 +17,11 @@
     }
 }
 
-.site-pages__list {
+.pagination__list {
   position: relative;
 }
 
-.site-pages {
+.pagination {
   display: flex;
 
   & :not(:last-child) {
@@ -32,7 +32,7 @@
 .contact :not(:last-child) {
   margin-right: 50px;
 }
-.current {
+.current.pagination__item {
   color: var(--color-web-blue);
   &::after {
     position: absolute;
@@ -46,8 +46,29 @@
   }
 }
 
+.pagination__item {
 
-.contact-list__item {
+   display: flex;
+   align-items: center;
+
+   padding-top: 32px;
+   padding-bottom: 32px;
+   gap: 10px;
+   justify-content: flex-end;
+   color: var(--color-text-secondary);
+   fill: currentColor;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.14;
+   letter-spacing: 0.02em;
+   transition: color var(--transition-timing-cub);
+
+   &:hover,
+   &:focus {
+     color: var(--color-web-blue)
+   }
+ }
+.contact__item {
 
   display: flex;
   align-items: center;
@@ -77,7 +98,7 @@
 
 
 
-.contact-list,
+.contact__list,
 .link {color: var(--color-text-main);
 
   transition-property: color;
