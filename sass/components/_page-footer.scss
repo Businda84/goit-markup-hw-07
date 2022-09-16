@@ -13,7 +13,7 @@
 // .link:focus{
 // color: var(--color-web-blue);}
 
-.icon-footer {
+.social-networks__icon {
     fill: #ffffff;
 }
 
@@ -29,7 +29,7 @@
     border-radius: 50%;
 }
 
-.social-networks-list {
+.social-networks__list {
     padding-bottom: 30px;
     justify-content: center;
     display: flex;
@@ -52,6 +52,7 @@
 }
 .address__maps {
     color: white;
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -67,6 +68,7 @@
 }
 
 .address__item {
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
@@ -86,7 +88,7 @@
 .footer-form {
     margin-left: auto;
 }
-.mailing-list {
+.footer-form__text {
     display: block;
     margin-bottom: 20px;
     color: #ffffff;
@@ -100,11 +102,11 @@
 
 }
 
-.form-for-imput {
+.footer-form__wind {
     display: flex;
 }
 
-.wind-for-email {
+.footer-form__imput {
     border-radius: 4px;
     padding-left: 16px;
     padding-top: 15px;
@@ -116,11 +118,12 @@
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     background: transparent;
+    color: rgba(255, 255, 255, 0.6);
 
 
 }
 
-.btn-email {
+.footer-form__btn {
 
     display: flex;
     align-items: center;
@@ -143,7 +146,7 @@
     background-color: var(--color-web-blue);
 }
 
-.subscription {
+.footer-form__subscription {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 700;
@@ -161,7 +164,7 @@
     display: flex;
 }
 
-.footer-soc-link {
+.social-networks {
     border: 0px;
     width: 206px;
     height: 80px;
@@ -171,7 +174,7 @@
     margin-left: 70px;
 }
 
-.social-link-footer {
+.social-networks__link {
     height: 44px;
     width: 44px;
     align-items: center;
@@ -203,7 +206,7 @@
     display: flex;
 }
 
-.footer-text {
+.social-networks__text {
     text-transform: uppercase;
     letter-spacing: 0.03em;
     font-weight: 700;

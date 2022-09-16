@@ -290,13 +290,13 @@ img {
   transition: transform 250ms var(--transition-timing-cub);
 }
 
-.icone-send {
+.footer-form__icon {
   margin-left: 10px;
   width: 24px;
   height: 24px;
 }
 
-.modal-form-checkbox {
+.modal__checkbox {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -329,7 +329,7 @@ textarea:focus {
   outline: none;
 }
 
-.imput-modal-form {
+.modal__imput {
   border: box;
   display: block;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -340,13 +340,13 @@ textarea:focus {
   padding-left: 42px;
   transition: border-color var(--transition-timing-cub);
 }
-.imput-modal-form:focus {
+.modal__imput:focus {
   fill: var(--color-web-blue);
   outline: none;
   border-color: var(--color-web-blue);
 }
 
-.icon-modal-form {
+.modal__icon {
   position: absolute;
   top: 50%;
   left: 12px;
@@ -354,7 +354,7 @@ textarea:focus {
   fill: var(--color-text-main);
   transition: fill var(--transition-timing-cub);
 }
-.imput-modal-form:focus + .icon-modal-form {
+.modal__imput:focus + .modal__icon {
   fill: var(--color-web-blue);
 }
 
@@ -390,7 +390,7 @@ textarea:focus {
   border: none;
 }
 
-.close-btn {
+.modal__close-btn {
   height: 30px;
   width: 30px;
   border-radius: 50%;
@@ -400,17 +400,17 @@ textarea:focus {
   border: rgba(0, 0, 0, 0.1);
   transition: fill 250ms var(--transition-timing-cub);
 }
-.close-btn:hover {
+.modal__close-btn:hover {
   fill: var(--color-web-blue);
 }
 
-.contact-form {
+.modal__form {
   display: flex;
   flex-direction: column;
   align-content: center;
 }
 
-.modal-title {
+.modal__title {
   margin-bottom: 12px;
   color: #212121;
   font-family: Roboto;
@@ -425,7 +425,7 @@ input {
   cursor: pointer;
 }
 
-.label-modal {
+.modal__label {
   display: flex;
   flex-direction: column;
   font-size: 12px;
@@ -437,7 +437,7 @@ input {
   margin-bottom: 4px;
 }
 
-.icone-close {
+.modal__btn-icon {
   display: flex;
   border-radius: 50%;
   padding: 0px;
@@ -471,7 +471,7 @@ input {
   margin-bottom: 20px;
 }
 
-.icon-input {
+.modal__name {
   padding: 0px;
   margin-bottom: 10px;
   position: relative;
@@ -850,7 +850,7 @@ input {
   color: var(--color-web-blue);
 }
 
-.icon-footer {
+.social-networks__icon {
   fill: #ffffff;
 }
 
@@ -864,7 +864,7 @@ input {
   border-radius: 50%;
 }
 
-.social-networks-list {
+.social-networks__list {
   padding-bottom: 30px;
   justify-content: center;
   display: flex;
@@ -889,6 +889,7 @@ input {
 
 .address__maps {
   color: white;
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -900,6 +901,7 @@ input {
 }
 
 .address__item {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -921,7 +923,7 @@ input {
   margin-left: auto;
 }
 
-.mailing-list {
+.footer-form__text {
   display: block;
   margin-bottom: 20px;
   color: #ffffff;
@@ -934,11 +936,11 @@ input {
   text-align: left;
 }
 
-.form-for-imput {
+.footer-form__wind {
   display: flex;
 }
 
-.wind-for-email {
+.footer-form__imput {
   border-radius: 4px;
   padding-left: 16px;
   padding-top: 15px;
@@ -950,9 +952,10 @@ input {
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   background: transparent;
+  color: rgba(255, 255, 255, 0.6);
 }
 
-.btn-email {
+.footer-form__btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -971,7 +974,7 @@ input {
   background-color: var(--color-web-blue);
 }
 
-.subscription {
+.footer-form__subscription {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 700;
@@ -991,7 +994,7 @@ input {
   display: flex;
 }
 
-.footer-soc-link {
+.social-networks {
   border: 0px;
   width: 206px;
   height: 80px;
@@ -1000,7 +1003,7 @@ input {
   margin-left: 70px;
 }
 
-.social-link-footer {
+.social-networks__link {
   height: 44px;
   width: 44px;
   align-items: center;
@@ -1014,7 +1017,7 @@ input {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-link-footer:hover {
+.social-networks__link:hover {
   background-color: var(--color-web-blue);
 }
 
@@ -1029,7 +1032,7 @@ input {
   display: flex;
 }
 
-.footer-text {
+.social-networks__text {
   text-transform: uppercase;
   letter-spacing: 0.03em;
   font-weight: 700;

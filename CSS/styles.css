@@ -642,7 +642,7 @@ business-profiles__title {
   margin-left: auto;
 } */
 
-/* .mailing-list {
+/* .footer-form__text {
   display: block;
   margin-bottom: 20px;
   color: #ffffff;
@@ -656,11 +656,11 @@ business-profiles__title {
 
 }
 
-.form-for-imput {
+.footer-form__wind {
   display: flex;
 }
 
-.wind-for-email {
+.footer-form__imput {
   border-radius: 4px;
   padding-left: 16px;
   padding-top: 15px;
@@ -676,7 +676,7 @@ business-profiles__title {
 
 }
 
-.btn-email {
+.footer-form__btn {
 
   display: flex;
   align-items: center;
@@ -699,7 +699,7 @@ business-profiles__title {
   background-color: var(--color-web-blue);
 }
 
-.subscription {
+.footer-form__subscription {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 700;
@@ -933,13 +933,13 @@ business-profiles__title {
   fill: var(--color-web-blue);
 }
 
-.contact-form {
+.modal__form {
   display: flex;
   flex-direction: column;
   align-content: center;
 }
 
-.modal-title {
+.modal__title {
   margin-bottom: 12px;
 
   color: #212121;
@@ -964,7 +964,7 @@ textarea {
   border-radius: 4px;
 }
 
-.label-modal {
+.modal__label {
   display: flex;
   flex-direction: column;
   font-size: 12px;
@@ -984,7 +984,7 @@ textarea {
   cursor: pointer;
 }
 
-.icone-close {
+.modal__btn-icon {
   display: flex;
 
 
@@ -1026,20 +1026,20 @@ button {
 
 }
 
-.icon-input {
+.modal__name {
 
   padding: 0px;
   margin-bottom: 10px;
   position: relative;
 }
 
-.icone-send {
+.footer-form__icon {
   margin-left: 10px;
   width: 24px;
   height: 24px;
 }
 
-.modal-form-checkbox {
+.modal__checkbox {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1081,18 +1081,18 @@ textarea:focus {
   border: none;
 }
 
-.imput-modal-form:focus {
+.modal__imput:focus {
   fill: var(--color-web-blue);
   outline: none;
   border-color: var(--color-web-blue);
 
 }
 
-.imput-modal-form:focus+.icon-modal-form {
+.modal__imput:focus+.modal__icon {
   fill: var(--color-web-blue);
 }
 
-.imput-modal-form {
+.modal__imput {
   border: box;
   display: block;
   border: 1px solid #21212133;
@@ -1105,7 +1105,7 @@ textarea:focus {
   transition: border-color var(--transition-timing-cub);
 }
 
-.icon-modal-form {
+.modal__icon {
 
   position: absolute;
   top: 50%;

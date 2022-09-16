@@ -17,13 +17,13 @@
 }
 
 
-.icone-send {
+.footer-form__icon {
     margin-left: 10px;
     width: 24px;
     height: 24px;
 }
 
-.modal-form-checkbox {
+.modal__checkbox {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,7 +64,7 @@ textarea {
         }
 
 }
-.imput-modal-form {
+.modal__imput {
     border: box;
     display: block;
     border: 1px solid #21212133;
@@ -86,7 +86,7 @@ textarea {
 
 
 
-.icon-modal-form {
+.modal__icon {
 
     position: absolute;
     top: 50%;
@@ -95,7 +95,7 @@ textarea {
     fill: var(--color-text-main);
     transition: fill var(--transition-timing-cub);
 
-    .imput-modal-form:focus + & {
+    .modal__imput:focus + & {
             fill: var(--color-web-blue);
         }
 
@@ -133,7 +133,7 @@ textarea {
             border: none;
         }
 }
-.close-btn {
+.modal__close-btn {
     height: 30px;
     width: 30px;
     border-radius: 50%;
@@ -149,13 +149,13 @@ textarea {
 }
 
 
-.contact-form {
+.modal__form {
     display: flex;
     flex-direction: column;
     align-content: center;
 }
 
-.modal-title {
+.modal__title {
     margin-bottom: 12px;
 
     color: #212121;
@@ -175,7 +175,7 @@ input {
 
 
 
-.label-modal {
+.modal__label {
     display: flex;
     flex-direction: column;
     font-size: 12px;
@@ -191,7 +191,7 @@ input {
 }
 
 
-.icone-close {
+.modal__btn-icon {
     display: flex;
 
 
@@ -230,7 +230,7 @@ input {
 
 }
 
-.icon-input {
+.modal__name {
 
     padding: 0px;
     margin-bottom: 10px;
